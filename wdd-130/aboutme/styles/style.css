@@ -1,14 +1,31 @@
 p 
- {text-align: center; background-color: palegreen;}
+ {text-align: center; background-color: palegreen;box-shadow: 3px 3px 3px 3px lightslategray;  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
+nav { text-align: left;
+
+}
  
-h1 {text-align: center;}
-h5 {text-align: center;}
+h1 {text-align: center;  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
+h4{background-color: lightyellow;display: block; margin-left: 25px;
+    margin-right: auto;
+    width: 25%;}
+
+h5 {text-align: center;  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+height:321px ; width:321px ; 
+}
   body 
   {background-color: white;}
   footer
