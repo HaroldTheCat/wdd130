@@ -1,0 +1,8 @@
+p 
+ {text-align: left; background-color: palegreen;box-shadow: 3px 3px 3px 3px lightslategray;  display: block;
+    margin-left: 12px;
+    margin-right: auto;
+    width: 15%;}
+h1{background-color: lightblue;box-shadow: 3px 3px 3px 3px lightslategray;  display: block;
+width: fit-content;
+}
