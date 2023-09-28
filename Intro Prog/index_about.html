@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <titel> Doug's Webzone! </titel>
+    <link rel="stylesheet" href="styles/style.css">
+    <nav>
+<ul>
+         <li> <a href="index.html">Back to the Hub</a></li>
+         <li> <a href="/wdd-130/aboutme/blog_post_repo/index_blog_store.html">To the Blog</a> </li>
+</ul>
+    </nav>
+    <meta charset=”utf-8″>
+</head>
+<marquee ="100%" direction="left" height="25px">
+    Hello I am Douglas Quincy Rohal and the Blobby Cat's Name is Harold. If you like my blog please tell other people about it. I try to make it better all the time!
+    </marquee>
+<header> <H1>Welcome to Doug's Webzone!</H1></header>
+<body>
+    <h1>I tend to post Random Articles and drawings of my Blobby Black Cat named Harold.</h1>
+    <p>Harold has paid all his taxes in a timely and honest manner. </p>
+    <h5>You know I have a blog already, but I rather host it myself. </h5>
+    <img src="images/Doug.jpeg"class='center'>
+    <p> Hi I am Doug. I am taking this class as part of finishing my Interdisplinary degree! 
+        Which is a weird thing to talk about, I am just going to tell people I want to do puppet shows for a living.
+         I want to make this website cool and friendly, also filled with cat doodles and fun articles. 
+         Fun in the way that you need to ask yourself what I am talking about. </p>
+         
+         <!-- <audio controls>
+            <source src="horse.mp3" type="audio/mpeg">
+            </audio>  -->
+
+<img src="images/Cat.png">
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+<footer>This is Douglas Quincy Rohal's Website. Please don't steal, or commit any other form of crime. 2023</footer>
