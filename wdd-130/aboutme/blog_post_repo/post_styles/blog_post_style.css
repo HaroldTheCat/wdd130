@@ -6,3 +6,7 @@ p
 h1{background-color: lightblue;box-shadow: 3px 3px 3px 3px lightslategray;  display: block;
 width: fit-content;
 }
+body 
+{background-color: whitesmoke;}
+footer
+{text-align: center;}
