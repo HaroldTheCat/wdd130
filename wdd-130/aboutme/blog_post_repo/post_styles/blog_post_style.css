@@ -3,9 +3,17 @@ p
     margin-left: 12px;
     margin-right: auto;
     width: 15%;}
-h1{background-color: lightblue;box-shadow: 3px 3px 3px 3px lightslategray;  display: block;
-width: fit-content;
-}
+
+    h1{background-color: lightblue;box-shadow: 3px 3px 3px 3px lightslategray;  display: block;
+width: fit-content;text-align: center;text-align: center;  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;}
+.cat_1 {
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;}
 body 
 {background-color: whitesmoke;}
 footer
