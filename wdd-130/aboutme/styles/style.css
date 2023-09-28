@@ -22,8 +22,12 @@ h5 {text-align: center;  display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-height:321px ; width:321px ; 
-}
+height:321px ; width:321px ;}
+.cat_1 {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
  body 
   {background-color: whitesmoke;}
   
