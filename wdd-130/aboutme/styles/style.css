@@ -34,3 +34,19 @@ display: block;
 footer
   {text-align: center;}
 
+#progbar {  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.label_center
+{text-align: center;  display: block;}
+.music{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+.pop{
+    margin-left:12%;
+    width: 15%;}
