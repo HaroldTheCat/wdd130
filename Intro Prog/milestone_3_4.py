@@ -10,9 +10,19 @@ child_total_cost=float(child_meal_cost)*float(count_children)
 adult_total_cost=float(adult_meal_cost)*float(count_adult)
 sub_total=(float(child_total_cost)+float(adult_total_cost))
 print('Your Subtotal is:') 
-print(sub_total)
+print(f'${sub_total:.2f}')
 print('Your Sales Tax is:')
+
+#Sales Tax calculation
 sales_tax_total=float(sub_total)*float(sales_tax)/100
-print(float(sales_tax_total))
+print(f'${sales_tax_total:.2f}')
+
+#total cost calculation
 print('Your Total is:')
-print(float(sales_tax_total)+float(sub_total))
+meal_total=(float(sales_tax_total)+float(sub_total))
+print(f'${meal_total:.2f}')
+
+#Payment input section
+payment=input('Please insert payment amount: $')
+change_remaining=float(payment) - (meal_total)
+print(f'Here is your change: ${change_remaining:.2f} ')
