@@ -40,7 +40,16 @@ if bookcase_look=='HIDDEN TRAP ENTRANCES FOR THE INCOMPOTENT VOL 12':
                      print('You pull out the book Hidden trap entrances for the incomptent vol:12, you hear a click and a panel falls out from under you revealing spikes, spining blades, and many many dogs with very sharp teeth, and well I would love to tell you what happend to your very fragile body, but this program needs to be in the rated T for Teens bin. So suffice it to say you died')
                      quit
 if bookcase_look=='POST MORTEM COMUNICATIONS':
-        print('You pick up the book labeld post mortem comunications. You flip to a random page and the book starts smoking, untill sudenly it exploads vaporising you instantly leaving only your hat behind. You have died.')
+        print('You pick up the book labeld post mortem comunications. You flip to a random page and the book starts smoking, untill sudenly it exploads vaporising you instantly leaving only your hat behind. You have died. You can now comunicate with the dead becasue you are one')
         quit
 if bookcase_look=='SECRET ENTRACES FOR DUMBIES VOLUME 12':
-        print('You attempt to pull out the book but it seams to be stuck on one of its corners you tug and tug. Untill you final give up, and wait. Was this bookshelf always facing the dirrection?\n No you walk around the moved bookshelf to find a stairway going down. You make your way down the stairs, and find yourself at the end of the program for now. ')
+        print('You attempt to pull out the book but it seams to be stuck on one of its corners you tug and tug. Untill you final give up, and wait. Was this bookshelf always facing the dirrection?\n No you walk around the moved bookshelf to find a stairway going down. You make your way down the stairs,')
+        post_staircase=input('You make your way down the torch lit stairwell that spirals down to two doors, one is ajar and dark on the inside the other has the glow of candle light glowing from underneith. Do you GO INTO THE DARK DOOR or GO TO THE LIT DOOR?')
+        if post_staircase.lower=='GO INTO THE DARK DOOR':
+                bathroom_check=input('You enter into the room the clacking of tiles under your feet it is a bathroom, and it smells like a swamp there is a shower curtin over the tub which is filled with what apears to be murcky muddy water. Do you LOOK IN THE TUB? or LEAVE THE ROOM? ')
+                if bathroom_check.lower=="LOOK IN THE TUB":
+                        print('You look under the shower curtain at the murky water in the tub. You nearly go away, but you think you see something moving in the mud, you get closer to the tub plugging your nose. Suddenly everything gets dark. It turns out the moving thing was the alligator or was it a crocidile biting your head. You dont have time to consider it taxinomy because you are dead.')
+                elif bathroom_check.lower=='LEAVE THE ROOM':
+                        print('You turn to leave and your foot slips on water on the tiles, their should have been a bath matt. You fall down cracking your head against the toilet. You have died. ')
+        elif post_staircase.lower=='GO TO THE LIT DOOR':
+                print('You slowly open the lit door expecting some horor to pop out after all it feels like any of these door options could have lead to your death. Behind the door is your MORGATH THE MYSTERIOUS! Your mentor, is alive and well and just sleeping in his secret basement. You are insensed! He Just forgot to get rid of his note! You turn around and leave the tower slaming the door behind you. YOU HAVE WON MORGATHS TOWER OF CHOAS!')
