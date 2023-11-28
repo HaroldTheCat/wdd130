@@ -25,7 +25,7 @@
   #harold_welcome_text {
     grid-column: 3 / 6;
     grid-row: 2;
-    width: 70%;
+    width: 70%; text-align: center;
 
 
 
