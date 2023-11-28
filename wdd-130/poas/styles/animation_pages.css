@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto+Mono:wght@300&display=swap");
+
+.harold_welcome_text {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  font-family: 'Roboto Mono';
+}
