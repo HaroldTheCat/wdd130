@@ -3,13 +3,9 @@
 #container {
     display: grid;
     grid-template-columns: .3fr .3fr .3fr .3fr .3fr;
-    grid-template-rows: 1fr .2fr 1fr 0.2fr;
+    grid-template-rows: 1fr 1fr 0.2fr;
   }
   
-  #welcome{
-    font-family: "Comic Neue"; text-align: center;
-padding-bottom: 50px; grid-row: 2;
-  }
 
   #harold_welcome_text,
   #icon,
@@ -20,7 +16,7 @@ padding-bottom: 50px; grid-row: 2;
     border-radius: 8px;
     font-family: "Roboto Mono";
     grid-column:2/3;
-    grid-row:3;
+    grid-row:2;
     justify-content: center;
     
 
@@ -28,7 +24,7 @@ padding-bottom: 50px; grid-row: 2;
   
   #harold_welcome_text {
     grid-column: 3 / 6;
-    grid-row: 3;
+    grid-row: 2;
     width: 70%;
 
 
@@ -54,7 +50,7 @@ padding-bottom: 50px; grid-row: 2;
     text-decoration: none;
     padding: 10px;
     color: white;
-    font-family: "Roboto Mono";
+    font-family: "Comic Neue";
   }
   
   nav a:hover {
