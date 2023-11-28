@@ -1,11 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto+Mono:wght@300&display=swap");
 
-.harold_welcome_text {
-  flex: 1;
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  text-align: center;
-  font-family: 'Roboto Mono';
-}
+#container {
+    display: grid;
+    grid-template-columns: .3fr .3fr .3fr .3fr .3fr;
+    grid-template-rows: 1fr .2fr 1fr 0.2fr;
+  }
+  
+  #welcome{
+    font-family: "Comic Neue"; text-align: center;
+padding-bottom: 50px; grid-row: 2;
+  }
+
+  #harold_welcome_text,
+  #icon,
+  #harold_intro {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: "Roboto Mono";
+    grid-column:2/3;
+    grid-row:3;
+    justify-content: center;
+    
+
+  }
+  
+  #harold_welcome_text {
+    grid-column: 3 / 6;
+    grid-row: 3;
+    width: 70%;
+
+
+
+  }
+  
+  nav {
+    background-color: #b80000;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    grid-column: 1 / 6;
+    grid-row: 1;
+    height: fit-content;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+  }
+  
+  nav a {
+    padding: 1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-family: "Roboto Mono";
+  }
+  
+  nav a:hover {
+    background-color: #0000b8;
+  }
+  
+  footer {
+    display: flex;
+    background-color: #0000b8;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 1 / 6;
+    grid-row: 3;
+    width: 100%;
+  }
+  
+  footer a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
