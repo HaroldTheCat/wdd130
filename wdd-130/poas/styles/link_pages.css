@@ -21,21 +21,23 @@
   font-family: "Roboto Mono";
   grid-column: 2;
   justify-content: center;
+  justify-self: center;
 }
 #res_1{grid-row: 3}
 #res_2{grid-row:5}
 #res_3{grid-row:7}
+h1{grid-row: 2;grid-column: 2;text-align: center; font-family: "Comic Neue";}
 nav {
   background-color: #b80000;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
-  grid-column: 1/4;
+  grid-column: 1 / 6;
   grid-row: 1;
   height: fit-content;
   list-style-type: none;
   display: flex;
-  width: 100%;
+  width: 100% s;
 }
 
 nav a {
