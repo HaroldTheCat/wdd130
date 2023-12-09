@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto+Mono:wght@300&display=swap");
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr,1fr,1fr;
+    grid-template-rows: 1fr ,1fr ,1fr ,1fr ,1fr 1fr, 1fr,
+  }
+
+.priciple_imp{ background-color: #fff;
+    padding:20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    justify-content: center;width:70%;height: 70%;
+}
+#text_1,#text_2,#text_3,#text_4,#text_5,#text_6,#text_7,#text_8,#text_9,#text_10,#text_11,#text_12{ 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    justify-content: center;width:fit-content;height: fit-content; font-family: "Roboto Mono";
+
+}
+#blank{grid-column: 3; width:25px;}
+#text_1{ grid-row: 1; grid-column: 2;}
+#part_1{grid-row: 1; grid-column: 1;}
+#text_2{grid-row:2; grid-column: 2;} 
+#part_2{grid-row:2; grid-column:1}
+#text_3{grid-row: 3; grid-column: 2;}
+#part_3{grid-row:3;grid-column: 1;}
+#text_4{grid-row:4;grid-column: 2;}
+#part_4{grid-row:4;grid-column: 1;}
+#text_5{grid-row:5;grid-column: 2;}
+#part_5{grid-row:5;grid-column:1}
+#text_6{grid-row:6;grid-column:2}
+#part_6{grid-row:6;grid-column:1}
+#part_7{grid-row:1;grid-column:4}
+#text_7{grid-row: 1; grid-column: 5;}
+#text_8{grid-row: 2; grid-column: 5;}
+#part_8{grid-row: 2; grid-column: 4;}
+#text_9{grid-row: 3; grid-column: 5;}
+#part_9{grid-row: 3; grid-column: 4;}
+#text_10{grid-row:4;grid-column:5}
+#part_10{grid-row:4;grid-column:4}
+#text_11{grid-row:5;grid-column:5}
+#part_11{grid-row: 5;grid-column:4}
+#part_12{grid-row:6;grid-column: 4;}
+#text_12{grid-row:6;grid-column:5}
+nav {
+    background-color: #b80000;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    grid-column: 1 / 5;
+    grid-row: 1;
+    height: fit-content;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+  }
+  
+  nav a {
+    padding: 1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-family: "Comic Neue";
+  }
+  
+  nav a:hover {
+    background-color: #0000b8;
+  }
+  
+  footer {
+    display: flex;
+    background-color: #0000b8;
+    color: white;
+    padding: 25px 50px;
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 1 / 5;
+    grid-row: 5;
+    width: 100%;
+  }
+  
+  footer a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  h1 {
+    grid-row: 1;
+    grid-column: 3;
+    text-align: center;
+    font-family: "Comic Neue";
+  }
