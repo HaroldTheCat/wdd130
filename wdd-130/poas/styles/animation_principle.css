@@ -19,7 +19,7 @@
     justify-content: center;width:fit-content;height: fit-content; font-family: "Roboto Mono";
 
 }
-#blank{grid-column: 3; }
+#blank{grid-column: 3; width: 15px; }
 #text_1{ grid-row: 1; grid-column: 2;}
 #part_1{grid-row: 1; grid-column: 1;}
 #text_2{grid-row:2; grid-column: 2;} 
