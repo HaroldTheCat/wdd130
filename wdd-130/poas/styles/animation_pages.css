@@ -3,7 +3,7 @@
 #container {
   display: grid;
   grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
-  grid-template-rows: 1fr 1fr 0.2fr;
+  grid-template-rows: .7fr 1fr 0.2fr;
 }
 
 #harold_welcome_text,
@@ -63,7 +63,7 @@ footer {
   align-items: center;
   grid-column: 1 / 6;
   grid-row: 3;
-  width: 100%;
+  width: 100%;font-family: "Roboto Mono";
 }
 
 footer a {
@@ -156,7 +156,7 @@ footer a {
     align-items: center;
     grid-column: 1 / 6;
     grid-row: 4;
-    width: 100%;
+    width: 100%;font-family: "Roboto Mono";
   }
 
   footer a {
